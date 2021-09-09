@@ -9,4 +9,11 @@ dd if=/dev/block/bootdevice/by-name/logo of=./logo.img bs=1048576 count=64
 ```
 图片需使用24位bmp位图, Photoshop存储为bmp Windows 24位.
 
+使用下面的命令刷入logo分区
+```
+fastboot flash logo logo.img
+fastboot reboot
+```
+接下来就是享受全新的开机界面!
+
 #### 版权声明: 所有图片均收集自互联网, 版权归属于原作者, 如有侵权请联系删除.
