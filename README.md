@@ -14,6 +14,7 @@ dd if=/dev/block/bootdevice/by-name/logo of=./logo.img bs=1048576 count=64
 fastboot flash logo logo.img
 fastboot reboot
 ```
+也可以dd回去, 将上面的 if 和 of 的路径对换即可
 接下来就是享受全新的开机界面!
 
 #### 版权声明: 所有图片均收集自互联网, 版权归属于原作者, 如有侵权请联系删除. 代码为GPLv3协议.
