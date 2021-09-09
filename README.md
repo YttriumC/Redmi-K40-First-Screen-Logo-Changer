@@ -7,7 +7,8 @@
 #需要root权限
 dd if=/dev/block/bootdevice/by-name/logo of=./logo.img bs=1048576 count=64
 ```
-图片需使用24位bmp位图, Photoshop存储为bmp Windows 24位.
+图片需使用24位bmp位图, Photoshop存储为BMP Windows 24位. 分辨率 1080x2400
+一个正常的bmp文件大小应该是7.41MB.
 
 使用下面的命令刷入logo分区
 ```
