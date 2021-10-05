@@ -1,4 +1,3 @@
-package cf.vbnm;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
