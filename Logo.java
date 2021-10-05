@@ -1,5 +1,3 @@
-package cf.vbnm;
-
 import java.io.*;
 
 public class Logo {
