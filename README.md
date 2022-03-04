@@ -21,3 +21,6 @@ fastboot reboot
 ### 开机图像 文件夹中有我最新制作的开机第一屏和开机动画. 打包好的bootanimation.zip将放在Release中以供下载.
 
 #### 版权声明: 所有图片均收集自互联网, 版权归属于原作者, 如有侵权请联系删除. 代码为GPLv3协议.
+
+## Known Issue:
+刷入**MIUI13**后logo失效, 正在检查问题
